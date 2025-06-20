@@ -89,7 +89,7 @@ Plusieurs systèmes de colorimétrie existent (RVB, CMJN, ...). À vous de voir 
 ### Zoom et navigation
 
 - Avec le bouton du milieu de la souris vous pouvez déplacer la zone de dessin dans l'interface.
-- Avec la molette de la souris vous pouvez zoomer et dézoomer. Le zoom est centrée sur la position de la souris.
+- Avec la touche (Ctrl) et la molette de la souris vous pouvez zoomer et dézoomer. Le zoom est centrée sur la position de la souris.
 
 ### Mode de sélection
 
@@ -311,10 +311,11 @@ Si votre dessin est modifié quand vous utilisez cette fonctionnalité, vérifie
 Le dernier problème que l'on rencontre souvent est la superposition de chemin ou de forme. Visuellement on voit un seul cercle ou rectangle mais les éléments sont dupliqués et superposés. Certain logiciel pilotant les machines arrivent à gérer ce genre de cas en générant qu'un passage d'outils. Cependant pour les autres, il est conseillé d'enlever les doublons au risque de voir l'outil passer plusieurs fois au même endroit.
 
 Solution fastidieuse:
-- Sélectionner chaque élément
+- Sélectionner un élément
 - Le déplacer légèrement
 - S'il n'y a pas de doublon, (Ctrl+Z) remet l'élément en place
 - Sinon supprimer le doublon
 - Attention il peux y avoir plus d'un doublon.
+- Recommencez pour chaque élement
 
 
